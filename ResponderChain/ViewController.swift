@@ -25,6 +25,13 @@ class ViewController: UIViewController {
         button1.tag = 2
         button1.addTarget(self, action: #selector(buttonDidTouchUpInside(_:)), for: .touchUpInside)
         view.addSubview(button1)
+        
+        let button2 = UIButton(type: .system)
+        button2.frame = CGRect(x: 20, y: 220, width: 200, height: 40)
+        button2.setTitle("手势冲突", for: .normal)
+        button2.tag = 3
+        button2.addTarget(self, action: #selector(buttonDidTouchUpInside(_:)), for: .touchUpInside)
+        view.addSubview(button2)
     }
     
     @objc private func buttonDidTouchUpInside(_ sender: UIButton) {
@@ -33,6 +40,8 @@ class ViewController: UIViewController {
             present(ResponseChainViewController())
         case 2: // 响应链 + 手势
             present(ResponseChainWithGestureViewController())
+        case 3:
+            present(UINavigationController(rootViewController: GestureConflictRootViewController()))
         default:
             break
         }

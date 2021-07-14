@@ -18,6 +18,8 @@
 		1B4EFFDA2698281D0009DC6B /* MyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4EFFD92698281D0009DC6B /* MyWindow.swift */; };
 		1B53CDEA269C5D4900F48FAD /* ResponseChainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CDE9269C5D4900F48FAD /* ResponseChainViewController.swift */; };
 		1B53CDEF269D398B00F48FAD /* ResponseChainWithGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CDEE269D398B00F48FAD /* ResponseChainWithGestureViewController.swift */; };
+		1B53CDF4269D653600F48FAD /* GestureConflictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CDF3269D653600F48FAD /* GestureConflictViewController.swift */; };
+		1B53CDF9269D66DF00F48FAD /* GestureConflictRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53CDF8269D66DF00F48FAD /* GestureConflictRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		1B4EFFD92698281D0009DC6B /* MyWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWindow.swift; sourceTree = "<group>"; };
 		1B53CDE9269C5D4900F48FAD /* ResponseChainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseChainViewController.swift; sourceTree = "<group>"; };
 		1B53CDEE269D398B00F48FAD /* ResponseChainWithGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseChainWithGestureViewController.swift; sourceTree = "<group>"; };
+		1B53CDF3269D653600F48FAD /* GestureConflictViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureConflictViewController.swift; sourceTree = "<group>"; };
+		1B53CDF8269D66DF00F48FAD /* GestureConflictRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureConflictRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				1B4EFFD92698281D0009DC6B /* MyWindow.swift */,
 				1B53CDE9269C5D4900F48FAD /* ResponseChainViewController.swift */,
 				1B53CDEE269D398B00F48FAD /* ResponseChainWithGestureViewController.swift */,
+				1B53CDF3269D653600F48FAD /* GestureConflictViewController.swift */,
+				1B53CDF8269D66DF00F48FAD /* GestureConflictRootViewController.swift */,
 			);
 			path = ResponderChain;
 			sourceTree = "<group>";
@@ -270,8 +276,10 @@
 				1B4CB2842695872300E8E4D1 /* ViewController.swift in Sources */,
 				1B4CB2802695872300E8E4D1 /* AppDelegate.swift in Sources */,
 				1B4CB2822695872300E8E4D1 /* SceneDelegate.swift in Sources */,
+				1B53CDF4269D653600F48FAD /* GestureConflictViewController.swift in Sources */,
 				1B53CDEA269C5D4900F48FAD /* ResponseChainViewController.swift in Sources */,
 				1B4EFFDA2698281D0009DC6B /* MyWindow.swift in Sources */,
+				1B53CDF9269D66DF00F48FAD /* GestureConflictRootViewController.swift in Sources */,
 				1B53CDEF269D398B00F48FAD /* ResponseChainWithGestureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

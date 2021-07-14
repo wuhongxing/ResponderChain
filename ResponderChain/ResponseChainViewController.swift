@@ -180,6 +180,17 @@ class FView: AbstractView {
     }
 }
 
+class KControl: HControl {
+    override var classTag: String {
+        return "KControl"
+    }
+    
+    override func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+        print("gestureRecognizerShouldBegin")
+        return false
+    }
+}
+
 class HControl: UIControl, Tagable {
     var classTag: String {
         return "HControl"
@@ -352,4 +363,3 @@ class GScrollView: UIScrollView, Tagable {
         return super.hitTest(point, with: event)
     }
 }
-
